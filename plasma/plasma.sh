@@ -15,6 +15,3 @@ sudo pacman -S --needed --noconfirm noto-fonts-{emoji,cjk}
 sudo pacman -S --needed --noconfirm spectacle \
 	gwenview \
 	okular 
-
-# Fix breeze cursor not showing in GTK apps.
-sudo sed -i 's/Adwaita/breeze_cursors/g' /usr/share/icons/default/index.theme

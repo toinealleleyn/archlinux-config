@@ -1,9 +1,0 @@
-#!/bin/zsh
-
-# profile file. Runs on login. Environment variables are set here.
-
-export ZDOTDIR="$HOME/.config/zsh"
-export EDITOR="nvim"
-export BROWSER="firefox"
-export FILEMANAGER="dolphin"
-[ "$XDG_SESSION_TYPE" == "wayland" ] && export MOZ_ENABLE_WAYLAND=1 || export MOZ_USE_XINPUT2=1
