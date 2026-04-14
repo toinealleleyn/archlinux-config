@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Install local hostname resolution for avahi
 sudo pacman -S --needed --noconfirm cups nss-mdns
 
